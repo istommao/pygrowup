@@ -15,7 +15,9 @@
 
 ```python
 word = 'Hello world!'
+
 word2 = "Hello world"    # 双引号也是可以的
+
 word3 = """
 Hello
 world
@@ -153,6 +155,26 @@ dst = OrderedDict([('hello', 'world'), ('age', 25), ('gender', 'male')])
 - os
 - sys
 - io
+
+**os 模块**
+
+```python
+import os
+
+os.name    # 字符串指示你正在使用的平台。比如对于Windows，它是'nt'，而对于Linux/Unix用户，它是'posix'
+os.getcwd()     # 获得当前工作目录
+os.listdir()    # 返回指定目录下的所有文件和目录名。
+
+os.cpu_count()    # 获得CPUs数量
+```
+
+**sys 模块**
+
+```python
+import sys
+
+sys.argv    # 命令行参数列表
+```
 
 ### 函数式
 
