@@ -59,6 +59,63 @@ dataset = set(['hello', 'world'])
 - defaultdict
 - OrderedDict
 
+**namedtuple **
+
+> namedtuple是继承自tuple的子类, namedtuple创建一个和tuple类似的对象，
+> 而且对象拥有可以访问的属性。这对象更像带有数据属性的类，不过数据属性是只读的。
+
+```python
+from collections import namedtuple
+
+PointClass = namedtuple('Point', ['x', 'y'])
+Point = PointClass(x=10, y=10)
+print(Point.x, Point.y)
+```
+
+**deque 双向列表**
+
+```python
+from collections import deque
+
+q = deque(['hello', 'world', 'python'])
+q.append('age')
+q.appendleft('25')
+```
+
+**Counter**
+
+> Counter是一个简单的计数器
+
+```python
+from collections import Counter
+
+s = 'Beautiful is better than ugly'
+
+c = Counter(s)
+print(c.most_common(3))    # 出现频率最高的3个字符
+```
+
+**defaultdict**
+
+> 当字典的key不存在时会抛出KeyError, 使用defaultdict在key不存在时则会返回设置的默认值
+
+```python
+from collections import defaultdict
+
+dst = defaultdict(lambda: '')
+print(dst['key'])
+```
+
+**OrderedDict 有序字典**
+
+> 有序字典，Python3中的dict就是OrderedDict
+
+```python
+from collections import OrderedDict
+
+dst = OrderedDict([('hello', 'world'), ('age', 25), ('gender', 'male')])
+```
+
 ### 时间日期
 
 - time
