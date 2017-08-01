@@ -42,6 +42,11 @@ dataset = ('hello', 'world')
 
 **dict 字典**
 
+> Python中的字典使用 散列表实现 (稀疏数组)
+
+- 键必须是可散列的
+
+
 ```python
 dataset = {'hello': 'world', 'age': 25}
 ```
