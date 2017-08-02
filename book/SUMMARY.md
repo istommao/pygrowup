@@ -1,6 +1,7 @@
 # Summary
 
 * [简介](README.md)
+* [编码规范](code_standard/index.md)
 * [标准库](std/index.md)
     * [基础数据结构](std/basis.md)
     * [高级数据结构](std/advanced.md)
