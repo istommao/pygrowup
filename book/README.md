@@ -1,5 +1,7 @@
 # Python成长之路
 
+Github: https://github.com/istommao/pygrowup
+
 * [简介](README.md)
 * [标准库](std/index.md)
     * [基础数据结构](std/basis.md)
