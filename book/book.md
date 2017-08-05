@@ -1,4 +1,4 @@
-# 书记推荐
+# 书籍推荐
 
 - 流畅的python
 - Python Web开发
