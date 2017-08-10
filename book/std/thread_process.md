@@ -17,6 +17,44 @@ for i in range(5):
 
 ## multiproccessing
 
+```python
+import os
+import multiprocessing
+
+def worker():
+    print('pid', os.getppid())
+    print('id', os.getpid())
+
+p = multiprocessing.Process(target=worker)
+p.start()
+p.join()
+```
+
 ## concurrent
 
+```python
+from concurrent import futures
+
+def func(num):
+    import time
+    time.sleep(0.5)
+    return time.ctime(), num
+
+with futures.ThreadPoolExecutor(max_workers=1) as executor:
+    future = executor.submit(func, 1)
+    print(future.result())
+```
+
 ## queue
+
+```python
+import queue
+
+que = queue.Queue()
+
+for i in range(5):
+    que.put(i)
+
+while not que.empty():
+    print(que.get())
+```
