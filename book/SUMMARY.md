@@ -17,6 +17,8 @@
 * [Python陷阱](trap.md)
 * [Web篇](web/index.md)
     * [gunicorn](web/gunicorn.md)
+    * [supervisor](web/supervisor.md)
+    * [pm2](web/pm2.md)
 * [其他](others/index.md)
     * [博客推荐](others/blog.md)
     * [资讯站点](others/website.md)
