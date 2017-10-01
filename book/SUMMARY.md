@@ -19,6 +19,7 @@
     * [gunicorn](web/gunicorn.md)
     * [supervisor](web/supervisor.md)
     * [pm2](web/pm2.md)
+    * [celery](web/celery.md)
 * [其他](others/index.md)
     * [博客推荐](others/blog.md)
     * [资讯站点](others/website.md)
