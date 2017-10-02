@@ -13,6 +13,7 @@
     * [高级数据结构](std/advanced.md)
     * [时间日期](std/datetime.md)
     * [线程进程](std/thread_process.md)
+    * [协程](std/coroutines.md)
     * [网络](std/network.md)
 * [Python陷阱](trap.md)
 * [Web篇](web/index.md)
