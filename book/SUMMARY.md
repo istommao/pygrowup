@@ -9,6 +9,7 @@
     * [字典](basic/dict.md)
     * [集合](basic/set.md)
     * [作用域](basic/scope.md)
+    * [模块](basic/module.md)
 * [标准库](std/index.md)
     * [基础数据结构](std/basis.md)
     * [高级数据结构](std/advanced.md)
